@@ -304,3 +304,4 @@ export function renderizarPaises(paises, contenedor) {
     // Insertar las tarjetas en el contenedor
     contenedor.innerHTML = tarjetas;
 }
+

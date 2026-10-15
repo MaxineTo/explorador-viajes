@@ -42,8 +42,14 @@ El proyecto permitirá:
 - módulos JavaScript
 - separación de responsabilidades
 
+## ./utils/filters.js
+
+- Normalización de texto
+- Aplicación de filtros
+- Eventos: input, change
+
 ## Arquitectura
 La aplicación utiliza una sola página HTML y divide progresivamente la lógica
 JavaScript en módulos según su responsabilidad.
 ## Versión actual
-v0.3.0 - Renderizado dinámico de Destinos.
+v0.4.0 - Renderizado dinámico de Destinos.
