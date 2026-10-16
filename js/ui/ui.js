@@ -312,10 +312,10 @@ export function mostrarDetalle(pais, modal, modalContent){
     const nombreOficial = pais.names?.common ?? "No disponible";
     const region = pais.region ?? "No disponible";
     const subregion = pais.subregion ?? "No disponible";
-    const poblacion = pais.poblacion ?? "No disponible";
+    const poblacion = pais.population ?? "No disponible";
     const bandera = pais.flag?.url_png ?? "";
     const codigo = pais.codes?.alpha_3 ?? "";
-    const capital = pais.capital?.[0]?.name ?? "No disponible";
+    const capital = pais.capitals?.[0]?.name ?? "No disponible";
     // Obtener coordenadas
     const latitud = pais.coordinates?.lat;
     const longitud = pais.coordinates?.lng;
